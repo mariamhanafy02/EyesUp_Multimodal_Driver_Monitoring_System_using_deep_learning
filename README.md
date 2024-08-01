@@ -50,6 +50,10 @@ The DMS is integrated into a web applications in which the frontend, developed u
 
 We extend our gratitude to Valeo and our supervisors for their invaluable support and guidance throughout this project.
 
+## Project Diagram
+
+![Project Diagram](gp flow.png)
+
 ## Project Demo
 
 [Watch the video](https://drive.google.com/file/d/1l5mEC6EDgJrROS4RXr6Xy_kIPO01mzRX/view?usp=drivesdk)
