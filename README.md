@@ -1,6 +1,4 @@
-# EyesUp_Multimodal_Driver_Monitoring_System_using_deep_learning
-DMS utilizes image processing, signal processing, and AI to detect driver drowsiness and distraction real-time . The system includes a chatbot that alerts the driver and helps keep them awake by engaging in conversations about their interests.
-# Eyes Up: Driver Monitoring System Using Deep Learning and Chatbot
+# Eyes Up: Multimodel Driver Monitoring System Using Deep Learning.
 
 ## Overview
 
@@ -8,31 +6,41 @@ A Driver Monitoring System (DMS) is crucial for vehicle safety, assessing driver
 
 ## Project Modules
 
-Our project consists of five modules, each addressing specific real-life scenarios:
+Our project consists of five interdependent modules, each designed to complement and enhance the functionality of the others, creating a cohesive system that addresses specific real-life scenarios effectively:
 
 ### 1. Distraction Detection Module
 - **Purpose:** Monitor 10 driver distraction postures.
 - **Technology Used:** Pre-Trained CNN (InceptionV3) and CNN-BILSTM models, fine-tuned for the task.
+- **Accuracy:** 94%
 
 ### 2. Drowsiness Detection Module (Camera)
 - **Purpose:** Monitor eye closure for signs of drowsiness.
 - **Technology Used:** MediaPipe Face Detection and Pre-Trained CNN (InceptionV3 and Resnet50) models, fine-tuned for eye closure monitoring.
-
+- **Accuracy:** 96%
+  
 ### 3. Drowsiness Detection Module (Voice)
 - **Purpose:** Detect drowsiness using voice analysis.
 - **Technology Used:** MFCC technique for speech recognition and trained RNN and ANN models.
-
+- **Accuracy:** 97%
+  
 ### 4. Speaking Detection Module
 - **Purpose:** Detect if the driver is talking.
 - **Technology Used:** Trained RNN, ANN, and SVM models.
+- **Accuracy:** 83%
 
 ### 5. Chatbot
 - **Purpose:** Engage and alert the driver to keep them awake.
 - **Technology Used:** Prompt engineering with chatbots like ChatterBot, ChatGPT, Llama2-13b, and DialoGPT.
+- We chose ChatGPT for its ability to generate diverse and contextually appropriate responses. ChatGPT has enabled personalized interactions by remembering user preferences, integrated system functionalities to recommend and open applications, provided flexible voice option, and supported speech recognition with Google's technology for hands-free interaction.
 
 ## System Integration
 
-The modules integrate seamlessly, using camera detection for distractions and drowsiness, and voice models to ensure driver alertness. The system can initiate conversations via ChatGPT to keep the driver awake, rechecking drowsiness with voice models or alerting through simple engines.
+To implement the system integration, we used two cameras and one microphone, applying threading for simultaneous image capture, allowing real-time drowsiness and distraction detection. The system processes camera frames for distraction detection, monitors eye closure for drowsiness, and uses voice analysis for speaking and drowsiness detection, with a chatbot to alert and engage the driver based on their status, ensuring safety through a flag-based mechanism for accurate and timely actions.
+
+## Web Application
+
+The DMS is integrated into a web applications in which the frontend, developed using Streamlit, focuses on user interface design, layout, and functionality, simplifying the creation of custom web applications for machine learning and data science. While the backend uses a Microsoft Excel file for simplicity, managing data operations like writing user information during signup and retrieving it during login.
+
 
 ## Supervision and Support
 
@@ -42,6 +50,7 @@ The modules integrate seamlessly, using camera detection for distractions and dr
 
 We extend our gratitude to Valeo and our supervisors for their invaluable support and guidance throughout this project.
 
----
+## Project Demo
 
-This README provides an overview of the project and the key modules that contribute to the Driver Monitoring System. For more detailed information, please refer to the documentation provided with each module.
+[Watch the video](https://drive.google.com/file/d/1l5mEC6EDgJrROS4RXr6Xy_kIPO01mzRX/view?usp=drivesdk)
+
