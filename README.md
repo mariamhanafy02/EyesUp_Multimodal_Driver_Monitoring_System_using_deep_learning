@@ -52,7 +52,7 @@ We extend our gratitude to Valeo and our supervisors for their invaluable suppor
 
 ## Project Diagram
 
-![Project Diagram](gp flow.png)
+![Project Diagram](https://github.com/mariamhanafy02/EyesUp_Multimodal_Driver_Monitoring_System_using_deep_learning/blob/main/gp%20flow.png)
 
 ## Project Demo
 
