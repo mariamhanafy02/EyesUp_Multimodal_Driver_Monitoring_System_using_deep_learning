@@ -56,7 +56,6 @@ We extend our gratitude to Valeo and our supervisors for their invaluable suppor
 
 ## Project Demo
 
-[Watch the video](https://drive.google.com/file/d/1l5mEC6EDgJrROS4RXr6Xy_kIPO01mzRX/view?usp=sharing)
+[Watch the video](https://drive.google.com/file/d/1l5mEC6EDgJrROS4RXr6Xy_kIPO01mzRX/preview)
 
-<iframe src="https://drive.google.com/file/d/1l5mEC6EDgJrROS4RXr6Xy_kIPO01mzRX/preview" width="640" height="480" allow="autoplay"></iframe>
 
